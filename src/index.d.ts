@@ -11,6 +11,8 @@ declare namespace printJS {
     documentTitle?: string;
     header?: any;
     headerStyle?: string;
+    footer?: any;
+    footerStyle?: string;
     maxWidth?: number;
     font?: string;
     font_size?: string;
@@ -36,6 +38,7 @@ declare namespace printJS {
     onPrintDialogClose?: () => void;
     onPdfOpen?: () => void;
     base64?: boolean;
+    pagination?: number;
   }
 }
 

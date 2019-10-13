@@ -18,6 +18,8 @@ export default {
       type: 'pdf',
       header: null,
       headerStyle: 'font-weight: 300;',
+      footer: null,
+      footerStyle: 'font-weight: 300;',
       maxWidth: 800,
       font: 'TimesNewRoman',
       font_size: '12pt',
@@ -45,7 +47,8 @@ export default {
       css: null,
       style: null,
       scanStyles: true,
-      base64: false
+      base64: false,
+      pagination: 0,
     }
 
     // Check if a printable document or object was supplied
