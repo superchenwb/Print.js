@@ -75,7 +75,9 @@ npm run watch
 新增属性
 
 footer?: any;          // 底部显示
+
 footerStyle?: string;  // 底部显示样式
+
 pagination?: number;   // 分页  如果传入的是非0数字，则头部和底部会重复渲染
 
 ##### Tests
