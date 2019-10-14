@@ -49,6 +49,7 @@ export default {
       scanStyles: true,
       base64: false,
       pagination: 0,
+      paginationStyle: '',
     }
 
     // Check if a printable document or object was supplied

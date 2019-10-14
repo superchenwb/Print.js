@@ -55,6 +55,7 @@ export default {
             for (let i = 0; i < result.length; i++) {
                 // Check if we are adding a print header
                 const tempElement = document.createElement("div");
+                tempElement.style = params.paginationStyle;
                 // Build the printable html data
                 const newParams = { ...params, printable: result[i] };
                 if (params.header) {

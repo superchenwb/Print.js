@@ -39,6 +39,7 @@ declare namespace printJS {
     onPdfOpen?: () => void;
     base64?: boolean;
     pagination?: number;
+    paginationStyle?: string;
   }
 }
 
